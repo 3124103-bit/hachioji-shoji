@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://3124103-bit.github.io/hachioji-shoji/sitemap.xml
