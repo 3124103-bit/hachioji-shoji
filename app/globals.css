@@ -16,3 +16,8 @@
 .workGrid{grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch}.workGrid article{display:flex;flex-direction:column;height:100%}.workGrid img,.workGrid .workMain img{height:330px;object-fit:cover}.workGrid article>div{flex:1}.services .barter{background:var(--cream);color:var(--ink)}.services .barter p{color:#677069}
 @media(max-width:900px){.workGrid{grid-template-columns:1fr}.workGrid .workMain{grid-column:auto}.workGrid img,.workGrid .workMain img{height:330px}}
 @media(max-width:680px){.workGrid img,.workGrid .workMain img{height:260px}}
+
+/* Two consultation types and a separate demolition timeline */
+.workGrid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:900px}.caseStudy{background:var(--cream)}.caseGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;max-width:1280px;margin:auto}.caseGrid figure{margin:0;background:#fff;overflow:hidden}.caseGrid img{width:100%;height:250px;object-fit:cover}.caseGrid figcaption{display:flex;align-items:center;gap:14px;padding:20px}.caseGrid figcaption b{color:var(--orange);font-size:12px}.caseGrid figcaption strong{font-size:15px}
+@media(max-width:900px){.workGrid{grid-template-columns:1fr 1fr}.caseGrid{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.workGrid,.caseGrid{grid-template-columns:1fr}.caseGrid img{height:240px}}
