@@ -10,12 +10,12 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top">
-        <img className="heroPhoto" src={asset("hero-tractors.jpg")} alt="八王子商事が取り扱う複数のトラクター" />
+        <img className="heroPhoto" src={asset("warehouse-before.jpg")} alt="八王子商事が解体に対応した倉庫" />
         <div className="heroShade" />
-        <div className="heroInner"><p className="eyebrow">法人・事業者歓迎｜出張見積もり無料</p><h1>片付けから買取まで、<br /><em>まとめてお任せください。</em></h1><p className="lead">倉庫・工場の整理、農機具・建設機械・鉄くずの買取、ビニールハウス・倉庫の解体まで。<br className="desktop" />「何が売れるか分からない」という段階から、丸ごとご相談いただけます。</p><div className="actions"><a className="primary" href="tel:08048544777"><span>電話で無料相談</span><b>080-4854-4777</b></a><a className="secondary" href="mailto:hachiojishoji@gmail.com?subject=買取・片付けの相談">写真を添えてメール相談 <span>→</span></a></div><div className="trust"><span>幅広い品目</span><span>物々交換OK</span><span>片付け・倉庫解体も相談</span></div></div>
+        <div className="heroInner"><p className="eyebrow">法人・事業者歓迎｜出張見積もり無料</p><h1>片付けから買取まで、<br /><em>まとめてお任せください。</em></h1><p className="lead">倉庫・工場の整理、農機具・機械・鉄くずの買取、ビニールハウス・倉庫の解体まで。<br className="desktop" />量が多い現場も、用途や価値が分からない古い機械も、丸ごとご相談いただけます。</p><div className="actions"><a className="primary" href="tel:08048544777"><span>電話で無料相談</span><b>080-4854-4777</b></a><a className="secondary" href="mailto:hachiojishoji@gmail.com?subject=買取・片付けの相談">写真を添えてメール相談 <span>→</span></a></div><div className="trust"><span>幅広い品目</span><span>物々交換OK</span><span>片付け・倉庫解体も相談</span></div></div>
       </section>
 
-      <section className="intro section"><p className="sectionLabel">ONE-STOP SERVICE</p><div className="introGrid"><h2>仕分け前の状態から、<br />現場ごとまとめて相談。</h2><p>機械や金属だけを選び出す必要はありません。倉庫や工場、事業所に残った品物を、そのままの状態からご相談いただけます。片付けや搬出、ビニールハウス・倉庫の解体も含めて対応します。</p></div></section>
+      <section className="intro section"><p className="sectionLabel">ONE-STOP SERVICE</p><div className="introGrid"><h2>仕分け前の状態から、<br />現場ごとまとめて相談。</h2><p>倉庫や工場、農場、事業所に残った物を、仕分け前の状態からご相談いただけます。買取、搬出、片付け、ビニールハウス・倉庫の解体まで、内容に合わせて対応します。</p></div></section>
 
       <section className="services" id="services">
         <article><span>01</span><h3>買取</h3><p>農機具、建設機械、工具、車両、金属類、設備、雑貨などを幅広く査定します。</p></article>
@@ -24,15 +24,20 @@ export default function Home() {
         <article className="barter"><span>04</span><h3>物々交換</h3><p>品物同士の交換もご相談ください。現金だけではない、柔軟な取引に対応します。</p></article>
       </section>
 
-      <section className="photoStory section"><div className="storyImage"><img src={asset("mixed-tools.jpg")} alt="まとめて置かれた草刈機やポンプなどの機械類" /></div><div className="storyCopy"><p className="sectionLabel">AS-IS IS OK</p><h2>古い、動かない、<br />種類が分からない。<br /><em>そのままで大丈夫です。</em></h2><p>サビている物、長年置いたままの物、大量にある物も、写真や現地の状況から確認します。掲載されていない品物も、まずは写真やお電話でご相談ください。</p><a href="mailto:hachiojishoji@gmail.com?subject=写真査定の相談">写真を送って相談する →</a></div></section>
+      <section className="work section" id="work"><div className="sectionHead"><p>WORK EXAMPLES</p><h2>片付け・解体のご相談例</h2><span>建物の状態、規模、周辺環境を確認して対応可否をご案内します。</span></div><div className="workGrid"><article className="workMain"><img src={asset("warehouse-work.jpg")} alt="外壁を取り外した倉庫の解体作業" /><div><b>倉庫の解体</b><p>人員と設備で対応できる規模の倉庫を解体。内部の機械や金属類、残置物の買取・片付けもまとめてご相談いただけます。</p></div></article><article><img src={asset("warehouse-frame.jpg")} alt="屋根と外壁を取り外した鉄骨倉庫" /><div><b>倉庫・作業小屋</b><p>戸建住宅の解体は行っていません。倉庫や作業小屋など、対応可能な規模を個別に確認します。</p></div></article><article><img src={asset("greenhouse.jpg")} alt="ビニールを外した農業用ハウスの骨組み" /><div><b>ビニールハウス</b><p>解体・撤去を相談できます。状態の良いハウスは、買取できる場合もあります。</p></div></article></div></section>
+
+      <section className="photoStory section"><div className="storyImage"><img src={asset("warehouse-work.jpg")} alt="倉庫内の物を残した状態で進む解体と片付け" /></div><div className="storyCopy"><p className="sectionLabel">AS-IS IS OK</p><h2>古い、動かない、<br />種類が分からない。<br /><em>そのままで大丈夫です。</em></h2><p>サビている物、長年置いたままの物、大量にある物も、写真や現地の状況から確認します。掲載されていない品物も、まずは写真やお電話でご相談ください。</p><a href="mailto:hachiojishoji@gmail.com?subject=写真査定の相談">写真を送って相談する →</a></div></section>
 
       <section className="items section" id="items"><div className="sectionHead"><p>WHAT WE BUY</p><h2>買取品目の一例</h2><span>ここにない物でも構いません。幅広く査定します。</span></div><div className="itemGrid">
-        <article><img src={asset("hero-tractors.jpg")} alt="トラクターなどの農機具" /><div><span>01</span><h3>農機具</h3><p>トラクター、コンバイン、耕運機、草刈機、運搬機、除雪機など</p></div></article>
+        <article><img src={asset("tractor-ford.jpg")} alt="買取対象となる古いトラクター" /><div><span>01</span><h3>農機具</h3><p>トラクター、コンバイン、耕運機、草刈機、運搬機、除雪機、発動機など</p></div></article>
         <article><img src={asset("excavator.jpg")} alt="油圧ショベルなどの建設機械" /><div><span>02</span><h3>建設・工業機械</h3><p>ユンボ、フォークリフト、発電機、溶接機、コンプレッサーなど</p></div></article>
-        <article><img src={asset("mixed-tools.jpg")} alt="草刈機やポンプなどの工具・機械" /><div><span>03</span><h3>工具・設備</h3><p>チェーンソー、モーター、給湯器、エアコン、電気機器など</p></div></article>
-        <article><img src={asset("vehicle.jpg")} alt="買取対象となる白い乗用車" /><div><span>04</span><h3>車両</h3><p>乗用車、トラック、バイク、船外機、タイヤ、ホイールなど</p></div></article>
-        <article><img src={asset("antiques.jpg")} alt="陶磁器や置物などの品物" /><div><span>05</span><h3>その他</h3><p>楽器、陶磁器、骨董品、雑貨など。掲載のない品物もご相談ください。</p></div></article>
+        <article><img src={asset("engines.jpg")} alt="古い発動機やモーターなどの機械設備" /><div><span>03</span><h3>工具・設備</h3><p>チェーンソー、発動機、モーター、給湯器、エアコン、ポンプ、各種工具など</p></div></article>
+        <article><img src={asset("equipment.jpg")} alt="古い映像・通信・測定機器などの電子機器" /><div><span>04</span><h3>産業用・電子機器</h3><p>制御盤、産業用カメラ、測定機器、通信・映像機器、レコーダー、基板を含む機械類など</p></div></article>
+        <article><img src={asset("vehicle-white.jpg")} alt="買取対象となる白い乗用車" /><div><span>05</span><h3>車両</h3><p>乗用車、トラック、バイク、原付、船外機、タイヤ、ホイールなど</p></div></article>
+        <article><img src={asset("antiques.jpg")} alt="陶磁器や置物などの品物" /><div><span>06</span><h3>その他</h3><p>楽器、陶磁器、骨董品、雑貨など。用途や名前が分からない物もご相談ください。</p></div></article>
       </div></section>
+
+      <section className="person section"><img src={asset("representative.jpg")} alt="八王子商事代表の池増龍一" /><div><p className="sectionLabel">WHO WE ARE</p><h2>私が直接、<br />ご相談を伺います。</h2><p>八王子商事 代表の池増龍一です。農機具一台から、倉庫や工場に残った大量の機械・不用品、片付けや解体を伴うご相談まで、内容を確認して対応します。写真だけで確認できる場合もありますので、まずは気軽にご連絡ください。</p><p className="originNote">中国出身。在日40年、帰化から20年以上になります。日本語で対応しますが、話し方に少し中国語のなまりがあります。</p><strong>代表　池増 龍一</strong></div></section>
 
       <section className="metals"><div className="metalsPhoto"><img src={asset("cleanup.jpg")} alt="片付け現場の木材や資材" /></div><div className="metalsCopy"><p className="sectionLabel">METAL & SCRAP</p><h2>金属くず・資源類も<br />幅広く取り扱います</h2><div className="metalLists"><div><h3>銅・電線</h3><p>ピカ銅、込銅、真鍮、砲金、皮付き銅、各種電線、VA線、ハーネス</p></div><div><h3>アルミ・鉄</h3><p>アルミガラ、サッシ、ホイール、アルミ缶、鉄くず、ステンレス</p></div><div><h3>機械・電装品</h3><p>モーター、ラジエーター、ブレーカー、基板、バッテリー、鉛、給湯器</p></div></div><small>※上記は一例です。種類や状態が分からない物、複数の素材が混ざった物もご相談ください。</small></div></section>
 
