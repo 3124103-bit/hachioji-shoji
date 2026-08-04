@@ -12,14 +12,14 @@ export default function Home() {
       <section className="hero" id="top">
         <img className="heroPhoto" src={asset("warehouse-before.jpg")} alt="八王子商事が解体に対応した倉庫" />
         <div className="heroShade" />
-        <div className="heroInner"><p className="eyebrow">法人・事業者歓迎｜出張見積もり無料</p><h1>片付けから買取まで、<br /><em>まとめてお任せください。</em></h1><p className="lead">倉庫・工場の整理、農機具・機械・鉄くずの買取、ビニールハウス・倉庫の解体まで。<br className="desktop" />量が多い現場も、用途や価値が分からない古い機械も、丸ごとご相談いただけます。</p><div className="actions"><a className="primary" href="tel:08048544777"><span>電話で無料相談</span><b>080-4854-4777</b></a><a className="secondary" href="mailto:hachiojishoji@gmail.com?subject=買取・片付けの相談">写真を添えてメール相談 <span>→</span></a></div><div className="trust"><span>幅広い品目</span><span>物々交換OK</span><span>片付け・倉庫解体も相談</span></div></div>
+        <div className="heroInner"><p className="eyebrow">法人・個人問わず対応｜出張見積もり無料</p><h1>片付けから買取まで、<br /><em>まとめてお任せください。</em></h1><p className="lead">倉庫・工場の整理、農機具・機械・鉄くずの買取、ビニールハウス・倉庫の解体まで。<br className="desktop" />量が多い現場も、用途や価値が分からない古い機械も、丸ごとご相談いただけます。</p><div className="actions"><a className="primary" href="tel:08048544777"><span>電話で無料相談</span><b>080-4854-4777</b></a><a className="secondary" href="mailto:hachiojishoji@gmail.com?subject=買取・片付けの相談">写真を添えてメール相談 <span>→</span></a></div><div className="trust"><span>幅広い品目</span><span>物々交換OK</span><span>片付け・倉庫解体も相談</span></div></div>
       </section>
 
       <section className="intro section"><p className="sectionLabel">ONE-STOP SERVICE</p><div className="introGrid"><h2>仕分け前の状態から、<br />現場ごとまとめて相談。</h2><p>倉庫や工場、農場、事業所に残った物を、仕分け前の状態からご相談いただけます。買取、搬出、片付け、ビニールハウス・倉庫の解体まで、内容に合わせて対応します。</p></div></section>
 
       <section className="services" id="services">
         <article><span>01</span><h3>買取</h3><p>農機具、建設機械、工具、車両、金属類、設備、雑貨などを幅広く査定します。</p></article>
-        <article><span>02</span><h3>倉庫・工場の片付け</h3><p>仕分け、買取、搬出まで一括相談。法人・事業者からのまとまったご依頼も歓迎します。</p></article>
+        <article><span>02</span><h3>倉庫・工場の片付け</h3><p>仕分け、買取、搬出まで一括相談。法人・個人を問わず、まとまったご依頼も歓迎します。</p></article>
         <article><span>03</span><h3>ビニールハウス・倉庫の解体</h3><p>ビニールハウスや倉庫などを解体。状態の良いビニールハウスは、買取できる場合もあります。</p></article>
         <article className="barter"><span>04</span><h3>物々交換</h3><p>品物同士の交換もご相談ください。現金だけではない、柔軟な取引に対応します。</p></article>
       </section>
@@ -32,7 +32,7 @@ export default function Home() {
         <article><img src={asset("tractor-ford.jpg")} alt="買取対象となる古いトラクター" /><div><span>01</span><h3>農機具</h3><p>トラクター、コンバイン、耕運機、草刈機、運搬機、除雪機、発動機など</p></div></article>
         <article><img src={asset("excavator.jpg")} alt="油圧ショベルなどの建設機械" /><div><span>02</span><h3>建設・工業機械</h3><p>ユンボ、フォークリフト、発電機、溶接機、コンプレッサーなど</p></div></article>
         <article><img src={asset("engines.jpg")} alt="古い発動機やモーターなどの機械設備" /><div><span>03</span><h3>工具・設備</h3><p>チェーンソー、発動機、モーター、給湯器、エアコン、ポンプ、各種工具など</p></div></article>
-        <article><img src={asset("equipment.jpg")} alt="古い映像・通信・測定機器などの電子機器" /><div><span>04</span><h3>産業用・電子機器</h3><p>制御盤、産業用カメラ、測定機器、通信・映像機器、レコーダー、基板を含む機械類など</p></div></article>
+        <article><img src={asset("equipment.jpg")} alt="古い家電、映像・通信・測定機器などの電子機器" /><div><span>04</span><h3>電子機器全般</h3><p>制御盤や測定機器などの産業用機器から、家電、カメラ、レコーダー、通信・映像機器、基板を含む機械類まで</p></div></article>
         <article><img src={asset("vehicle-white.jpg")} alt="買取対象となる白い乗用車" /><div><span>05</span><h3>車両</h3><p>乗用車、トラック、バイク、原付、船外機、タイヤ、ホイールなど</p></div></article>
         <article><img src={asset("antiques.jpg")} alt="陶磁器や置物などの品物" /><div><span>06</span><h3>その他</h3><p>楽器、陶磁器、骨董品、雑貨など。用途や名前が分からない物もご相談ください。</p></div></article>
       </div></section>
